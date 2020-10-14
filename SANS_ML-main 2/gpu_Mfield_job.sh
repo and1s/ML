@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=ndrucker		# username to associate with job
+#SBATCH --account=spiridea		# username to associate with job
 #SBATCH --job-name=Mfields_8_27_20		# a desired name to appear alongside job ID in squeue
 #SBATCH --gres=gpu:2 			# number of GPUs (per node)
 #SBATCH --time=0-03:00			# time (DD-HH:MM)
